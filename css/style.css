@@ -1,0 +1,6 @@
+.carrossel {
+	object-fit: cover;
+	object-position: center;
+	height: 50vh;
+	width: 100%;
+}
