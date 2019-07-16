@@ -1,10 +1,10 @@
-  $('.carousel.carousel-slider').carousel({
-    fullWidth: true
-  });
+$('.carousel.carousel-slider').carousel({
+	fullWidth: true
+});
 
-   $(document).ready(function(){
-    $('.parallax').parallax();
-  });
+$(document).ready(function(){
+	$('.parallax').parallax();
+});
 
    function initMap() {
   // The location of Uluru
@@ -14,4 +14,4 @@
       document.getElementById('map'), {zoom: 4, center: uluru});
   // The marker, positioned at Uluru
   var marker = new google.maps.Marker({position: uluru, map: map});
-}
+}	
