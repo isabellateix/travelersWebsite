@@ -19,7 +19,7 @@ function initMap() {
   	$('.parallax').parallax();
     $('.carousel.carousel-slider').carousel({
     	fullWidth: true
-    });
+  });
 
     $('#id-isabella').click(function(){
       console.log(isabellas);
@@ -45,8 +45,8 @@ function initMap() {
         const marker  = new google.maps.Marker({position: victor, map: map});
       });
     });
-
   });
+  
   
   const centroMundo = {lat: 8.649249, lng: -26.086845}
   // The location of Uluru
